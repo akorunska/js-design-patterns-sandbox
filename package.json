@@ -17,6 +17,7 @@
   },
   "scripts": {
     "postinstall": "husky install",
+    "prettier": "prettier --write .",
     "test": "mocha"
   },
   "repository": {
