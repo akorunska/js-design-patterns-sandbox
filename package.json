@@ -1,0 +1,32 @@
+{
+  "name": "js-design-patterns-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".pretter.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "assert": "^2.0.0"
+  },
+  "devDependencies": {
+    "husky": "^5.0.4",
+    "mocha": "^8.2.1",
+    "pinst": "^2.1.1",
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "postinstall": "husky install",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akorunska/js-design-patterns-sandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akorunska/js-design-patterns-sandbox/issues"
+  },
+  "homepage": "https://github.com/akorunska/js-design-patterns-sandbox#readme"
+}
