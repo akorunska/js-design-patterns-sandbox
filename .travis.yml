@@ -1,1 +1,15 @@
 language: node_js
+
+node_js:
+- '14.14'
+
+branches:
+  # whitelist
+  only:
+    - master
+
+install:
+  npm install
+
+script:
+  npm run test
