@@ -6,6 +6,7 @@ branches:
   # whitelist
   only:
     - master
+    - develop
 
 install: npm install
 

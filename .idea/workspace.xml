@@ -4,6 +4,7 @@
     <list default="true" id="d0e3d420-e7b4-40c0-badf-c7cd763d1643" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607372720301</updated>
       <workItem from="1607372721877" duration="2145000" />
-      <workItem from="1608024617968" duration="323000" />
+      <workItem from="1608024617968" duration="583000" />
     </task>
     <servers />
   </component>

@@ -2,7 +2,7 @@
   "name": "js-design-patterns-sandbox",
   "version": "1.0.0",
   "description": "",
-  "main": ".pretter.js",
+  "main": ".prettier.js",
   "directories": {
     "test": "test"
   },
