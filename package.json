@@ -34,7 +34,7 @@
     "prettier": "prettier --write .",
     "eslint": "eslint .",
     "test": "mocha",
-    "coverage": "nyc --check-coverage --lines 90 mocha"
+    "coverage": "nyc --check-coverage --lines 85 mocha"
   },
   "repository": {
     "type": "git",
