@@ -4,3 +4,4 @@
 npm run prettier
 npm run eslint
 npm test
+npm run coverage
