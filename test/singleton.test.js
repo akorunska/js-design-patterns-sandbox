@@ -5,7 +5,7 @@ describe('Singleton', function () {
   const connectionText = 'This db is now connected';
 
   describe('DB connection', function () {
-    it('DB connection is initialized with correct value', function () {
+    it('DB connection is initialized with correct value if credentials are set', function () {
       const connectionInstance = dbConnection.getInstance();
 
       assert.strictEqual(
