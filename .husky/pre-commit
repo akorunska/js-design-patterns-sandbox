@@ -2,4 +2,6 @@
 . "$(dirname $0)/_/husky.sh"
 
 npm run prettier
+npm run eslint
 npm test
+npm run coverage

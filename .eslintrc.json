@@ -1,6 +1,25 @@
 {
-  "extends": "airbnb",
-  "rules": {
-    "indent": 2
-  }
+  "plugins": ["mocha", "prettier"],
+  "overrides": [
+    {
+      "files": ["patterns/*/*.js"],
+      "env": {
+        "es6": true,
+        "node": true
+      },
+      "extends": ["airbnb"]
+    },
+    {
+      "files": ["**/*.test.js"],
+      "env": {
+        "es6": true,
+        "mocha": true,
+        "node": true
+      },
+      "extends": ["plugin:mocha/recommended"],
+      "parserOptions": {
+        "sourceType": "module"
+      }
+    }
+  ]
 }

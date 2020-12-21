@@ -23,7 +23,7 @@ const dbConnection = () => {
 
   return {
     // init connection if it exists or initiate new one
-    getInstance: function () {
+    getInstance: () => {
       if (!instance) {
         instance = init();
       }

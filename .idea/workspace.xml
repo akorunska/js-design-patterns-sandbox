@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0e3d420-e7b4-40c0-badf-c7cd763d1643" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/patterns/singleton/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/singleton/database.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/singleton/databaseConnection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.nycrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/singleton/singleton.js" beforeDir="false" afterPath="$PROJECT_DIR$/.mocharc.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_singleton.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_singleton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/singleton/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/singleton/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/singleton.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/singleton.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +35,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="run.prettier.on.save" value="true" />
@@ -59,7 +58,9 @@
       <workItem from="1607372721877" duration="2145000" />
       <workItem from="1608024617968" duration="1435000" />
       <workItem from="1608053016704" duration="527000" />
-      <workItem from="1608127395868" duration="3572000" />
+      <workItem from="1608127395868" duration="3919000" />
+      <workItem from="1608281094586" duration="3469000" />
+      <workItem from="1608559320207" duration="645000" />
     </task>
     <servers />
   </component>

@@ -9,6 +9,7 @@
   "dependencies": {
     "assert": "^2.0.0",
     "core-js": "^3.8.1",
+    "eslint-plugin-prettier": "^3.3.0",
     "regenerator-runtime": "^0.13.7"
   },
   "devDependencies": {
@@ -19,17 +20,21 @@
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-mocha": "^8.0.0",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.0.0",
     "husky": "^5.0.4",
     "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
     "pinst": "^2.1.1",
     "prettier": "^2.2.1"
   },
   "scripts": {
     "postinstall": "husky install",
     "prettier": "prettier --write .",
-    "test": "mocha"
+    "eslint": "eslint .",
+    "test": "mocha",
+    "coverage": "nyc --check-coverage mocha"
   },
   "repository": {
     "type": "git",
