@@ -7,7 +7,15 @@
         "es6": true,
         "node": true
       },
-      "extends": ["airbnb"]
+      "extends": ["airbnb"],
+      "rules": {
+        "comma-dangle": [
+          "off",
+          {
+            "functions": "never"
+          }
+        ]
+      }
     },
     {
       "files": ["**/*.test.js"],
